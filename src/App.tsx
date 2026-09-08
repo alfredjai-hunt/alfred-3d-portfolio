@@ -300,7 +300,7 @@ export default function App() {
           <a href="#skills" className="nav-link" style={{ color: 'var(--text-color)', textDecoration: 'none', opacity: 0.8 }}>Skills</a>
           <a href="#contact" className="nav-link" style={{ color: 'var(--text-color)', textDecoration: 'none', opacity: 0.8 }}>Contact</a>
         </div>
-        <a href="mailto:alfredhuntai@gmail.com" className="glass-panel btn-primary" style={{
+        <a href="mailto:alfred.jai@gmail.com" className="glass-panel btn-primary" style={{
           padding: '8px 16px',
           borderRadius: '20px',
           textDecoration: 'none',
@@ -933,7 +933,7 @@ export default function App() {
               </p>
 
               <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-                <a href="mailto:alfredhuntai@gmail.com" className="glass-panel btn-primary" style={{
+                <a href="mailto:alfred.jai@gmail.com" className="glass-panel btn-primary" style={{
                   padding: '16px 40px',
                   borderRadius: '30px',
                   textDecoration: 'none',
@@ -948,7 +948,7 @@ export default function App() {
                   transition: 'all 0.3s ease',
                   boxShadow: '0 4px 20px rgba(255,255,255,0.15)'
                 }}>
-                  <Mail size={18} /> alfredhuntai@gmail.com
+                  <Mail size={18} /> alfred.jai@gmail.com
                 </a>
 
                 <a href="https://www.linkedin.com/in/alfredjai/" target="_blank" rel="noopener noreferrer" className="glass-panel btn-primary" style={{
