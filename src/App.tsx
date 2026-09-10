@@ -162,8 +162,8 @@ const PROJECTS = [
   },
   {
     title: "NIE Social Awareness Film",
-    subtitle: "The National Institute of Engineering",
-    description: "Elite academic institutional showcase highlighting research capabilities, tech-lab infrastructure, placement records, and the engineering student experience.",
+    subtitle: "National Institute of Epidemiology",
+    description: "A social-impact film for the National Institute of Epidemiology, translating public-health research into a human story of families, safe drinking water and its measurable impact on childhood diarrhoeal disease.",
     icon: Code,
     badge: "Social Awareness Film",
     color: "rgba(255, 59, 48, 0.12)",
@@ -874,14 +874,49 @@ export default function App() {
               <h3 style={{ fontFamily: 'var(--font-header)', fontSize: '1.3rem', fontWeight: 700, color: 'var(--accent-color)', marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <Sparkles size={20} /> AI Filmmaking Stack
               </h3>
-              <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {['Google Flow / Veo', 'Kling AI & Higgsfield', 'Nano Banana Pro', 'Seedance & Seed-to-Video', 'Storyboard Studio', 'Google AI Studio'].map((skill, i) => (
-                  <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.95rem', color: 'var(--text-color)' }}>
-                    <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--accent-color)' }} />
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                <div>
+                  <h4 style={{ fontFamily: 'var(--font-header)', fontSize: '0.95rem', fontWeight: 800, color: '#fff', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: '4px' }}>
+                    Cloud Based
+                  </h4>
+                  <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                    {['Higgsfield', 'Google Flow', 'Storyboard Studio', 'Nana Banana Pro', 'Veo', 'Omniflash', 'Kling AI', 'Seedance'].map((skill, i) => (
+                      <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.9rem', color: 'var(--text-color)' }}>
+                        <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'var(--accent-color)' }} />
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 style={{ fontFamily: 'var(--font-header)', fontSize: '0.95rem', fontWeight: 800, color: '#fff', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: '4px' }}>
+                    Local Open-source
+                  </h4>
+                  <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                    {['LTX-2.5', 'LTX-2.3', 'Wan TI2V-5B', 'Wan A14B', 'Wan S2V-14B', 'SkyReels 1.3B', 'SkyReels 14B', 'HunyuanVideo 1.5', 'Open-Sora 2.0'].map((skill, i) => (
+                      <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.9rem', color: 'var(--text-color)' }}>
+                        <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'var(--accent-color)' }} />
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 style={{ fontFamily: 'var(--font-header)', fontSize: '0.95rem', fontWeight: 800, color: '#fff', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: '4px' }}>
+                    Platforms
+                  </h4>
+                  <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                    {['Runway', 'OpenArt', 'Morphic', 'KlingAI', 'Pixverse', 'KreaAI', 'Wireflow', 'ComfyUI', 'Runcomfy', 'Comfycloud', 'SwarmUI'].map((skill, i) => (
+                      <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.9rem', color: 'var(--text-color)' }}>
+                        <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'var(--accent-color)' }} />
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
 
             <div className="glass-panel" style={{ padding: '40px' }}>
